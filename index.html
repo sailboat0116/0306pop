@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
     <title>POPCAT CLASSIC</title>
     <meta name="author" content="Joshua O'Sullivan, Freddy Heppell, Edward Hails">
@@ -9,6 +9,11 @@
 
     <meta name="msapplication-TileColor" content="#b721ff">
     <meta name="theme-color" content="#b721ff">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap&text=0123456789" rel="stylesheet">
+
 
     <style>
         html { height:100%; overflow:hidden; }
@@ -145,12 +150,10 @@
     }
     p_func = () => setTimeout(() => cat.id = "p", 25)
 
-
     document.addEventListener("pointerup", p_func)
     document.addEventListener("keyup", p_func)
     document.addEventListener("pointerdown", op_func)
     document.addEventListener("keydown", op_func)
-
 </script>
 </body>
 </html>
